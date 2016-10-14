@@ -1,29 +1,29 @@
 # generator-ionic-wechat-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Yeoman generator for ionic-wechat-app.
+> Yeoman generator for ionic-dong-app.
 
 ##Reinstall:
 ```bash
-$ npm uninstall -g generator-ionic-wechat-app
-$ npm install -g generator-ionic-wechat-app
+$ npm uninstall -g generator-ionic-dong-app
+$ npm install -g generator-ionic-dong-app
 ```
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-ionic-wechat-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) and generator-ionic-dong-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-ionic-wechat-app
+npm install -g generator-ionic-dong-app
 ```
 
 Then generate your new project:
 
 ```bash
-yo ionic-wechat-app
+yo ionic-dong-app
 ```
 
 ##Generate controller:
 ```bash
-yo ionic-wechat-app:controller
+yo ionic-dong-app:controller
 ```
 + Then input your project_name (Most of time ,you can use the default one) and controller name;
 + `DON'T forget paste the ROUTE.MD to your own index.route.js.`
@@ -31,7 +31,7 @@ yo ionic-wechat-app:controller
 
 ##Generate component:
 ```bash
-yo ionic-wechat-app:component
+yo ionic-dong-app:component
 ```
 Then input your project_name (Most of time ,you can use the default one) and component name;
 
@@ -45,14 +45,18 @@ Then input your project_name (Most of time ,you can use the default one) and com
 
 ## License
 
+MIT © [tony](https://github.com/smalleast)
+
+## source
+
 MIT © [feizheng](https://github.com/afeiship)
 
 
-[npm-image]: https://badge.fury.io/js/generator-ionic-wechat-app.svg
-[npm-url]: https://npmjs.org/package/generator-ionic-wechat-app
-[travis-image]: https://travis-ci.org/afeiship/generator-ionic-wechat-app.svg?branch=master
-[travis-url]: https://travis-ci.org/afeiship/generator-ionic-wechat-app
-[daviddm-image]: https://david-dm.org/afeiship/generator-ionic-wechat-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/afeiship/generator-ionic-wechat-app
+[npm-image]: https://badge.fury.io/js/generator-ionic-dong-app.svg
+[npm-url]: https://npmjs.org/package/generator-ionic-dong-app
+[travis-image]: https://travis-ci.org/afeiship/generator-ionic-dong-app.svg?branch=master
+[travis-url]: https://travis-ci.org/afeiship/generator-ionic-dong-app
+[daviddm-image]: https://david-dm.org/afeiship/generator-ionic-dong-app.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/afeiship/generator-ionic-dong-app
 [yeoman-docs]: http://yeoman.io/generator/actions_remote.html
 [mes-fs]: https://github.com/sboudrias/mem-fs
