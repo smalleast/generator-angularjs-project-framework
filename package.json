@@ -1,12 +1,12 @@
 {
-  "name": "generator-ionic-wechat-app",
+  "name": "generator-ionic-dong-app",
   "version": "0.0.9",
-  "description": "Yeoman generator for ionic-wechat-app.",
-  "homepage": "https://github.com/afeiship/generator-ionic-wechat-app",
+  "description": "Yeoman generator for ionic-dong-app.",
+  "homepage": "https://github.com/smalleast/generator-ionic-dong-app",
   "author": {
-    "name": "feizheng",
-    "email": "1290657123@qq.com",
-    "url": "https://github.com/afeiship"
+    "name": "smalleast",
+    "email": "382026180@qq.com",
+    "url": "https://github.com/smalleast"
   },
   "files": [
     "generators"
@@ -44,7 +44,7 @@
       "mocha": true
     }
   },
-  "repository": "git@github.com:afeiship/generator-ionic-wechat-app.git",
+  "repository": "git@github.com:smalleast/generator-ionic-dong-app.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
