@@ -1,8 +1,8 @@
 {
-  "name": "generator-ionic-dong-app",
+  "name": "generator-angularjs-project-framework",
   "version": "0.0.9",
-  "description": "Yeoman generator for ionic-dong-app.",
-  "homepage": "https://github.com/smalleast/generator-ionic-dong-app",
+  "description": "Yeoman generator for angularjs-project-framework.",
+  "homepage": "https://github.com/smalleast/generator-angularjs-project-framework",
   "author": {
     "name": "smalleast",
     "email": "382026180@qq.com",
@@ -44,7 +44,7 @@
       "mocha": true
     }
   },
-  "repository": "git@github.com:smalleast/generator-ionic-dong-app.git",
+  "repository": "git@github.com:smalleast/generator-angularjs-project-framework.git",
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"

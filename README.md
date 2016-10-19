@@ -1,29 +1,29 @@
-# generator-ionic-dong-app [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
-> Yeoman generator for ionic-dong-app.
+#generator-angularjs-project-framework [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
+> Yeoman generator for angularjs-project-framework.
 
 ##Reinstall:
 ```bash
-$ npm uninstall -g generator-ionic-dong-app
-$ npm install -g generator-ionic-dong-app
+$ npm uninstall -ggenerator-angularjs-project-framework
+$ npm install -ggenerator-angularjs-project-framework
 ```
 ## Installation
 
-First, install [Yeoman](http://yeoman.io) and generator-ionic-dong-app using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+First, install [Yeoman](http://yeoman.io) andgenerator-angularjs-project-framework using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
 
 ```bash
 npm install -g yo
-npm install -g generator-ionic-dong-app
+npm install -ggenerator-angularjs-project-framework
 ```
 
 Then generate your new project:
 
 ```bash
-yo ionic-dong-app
+yo angularjs-project-framework
 ```
 
 ##Generate controller:
 ```bash
-yo ionic-dong-app:controller
+yo angularjs-project-framework:controller
 ```
 + Then input your project_name (Most of time ,you can use the default one) and controller name;
 + `DON'T forget paste the ROUTE.MD to your own index.route.js.`
@@ -31,7 +31,7 @@ yo ionic-dong-app:controller
 
 ##Generate component:
 ```bash
-yo ionic-dong-app:component
+yo angularjs-project-framework:component
 ```
 Then input your project_name (Most of time ,you can use the default one) and component name;
 
@@ -52,11 +52,11 @@ MIT © [tony](https://github.com/smalleast)
 MIT © [feizheng](https://github.com/afeiship)
 
 
-[npm-image]: https://badge.fury.io/js/generator-ionic-dong-app.svg
-[npm-url]: https://npmjs.org/package/generator-ionic-dong-app
-[travis-image]: https://travis-ci.org/afeiship/generator-ionic-dong-app.svg?branch=master
-[travis-url]: https://travis-ci.org/afeiship/generator-ionic-dong-app
-[daviddm-image]: https://david-dm.org/afeiship/generator-ionic-dong-app.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/afeiship/generator-ionic-dong-app
+[npm-image]: https://badge.fury.io/js/generator-angularjs-project-framework.svg
+[npm-url]: https://npmjs.org/package/generator-angularjs-project-framework
+[travis-image]: https://travis-ci.org/afeiship/generator-angularjs-project-framework.svg?branch=master
+[travis-url]: https://travis-ci.org/afeiship/generator-angularjs-project-framework
+[daviddm-image]: https://david-dm.org/afeiship/generator-angularjs-project-framework.svg?theme=shields.io
+[daviddm-url]: https://david-dm.org/afeiship/generator-angularjs-project-framework
 [yeoman-docs]: http://yeoman.io/generator/actions_remote.html
 [mes-fs]: https://github.com/sboudrias/mem-fs
